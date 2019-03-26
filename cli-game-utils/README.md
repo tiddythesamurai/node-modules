@@ -6,5 +6,5 @@
 ## Functions
 ***
 #### 1. sPrint [WIP]
-##### Usage: `sPrint(` *your string here* `)`
+##### Usage: `sPrint(`*your string here*`)`
 sPrint will sequentially print the string inputted with a timed delay between each chracter.
