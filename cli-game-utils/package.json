@@ -1,0 +1,11 @@
+{
+  "name": "cli-game-utils",
+  "version": "1.0.4s",
+  "description": "Utils for simple, command line based games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Todd Knight <knight.todd.04@gmail.com>",
+  "license": "ISC"
+}
