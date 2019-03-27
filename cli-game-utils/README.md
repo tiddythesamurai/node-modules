@@ -26,7 +26,8 @@ const util = require("cli-game-utils");
 util.sPrint("Hello World!", 200, true);
 ```
 Output:
-![](https://i.ibb.co/6tXq0Ls/ezgif-com-crop.gif)
+
+![](https://media.giphy.com/media/EcB6bZtxREJD0tGUIh/giphy.gif)
 ```js
 const util = require("cli-game-utils");
 console.log("This is printed immediately.");
@@ -34,4 +35,5 @@ util.sleep(3000);
 console.log("This is executed three seconds later.");
 ```
 Output:
-![](https://i.ibb.co/hmHpBWx/ezgif-com-crop-1.gif)
+
+![](https://media.giphy.com/media/cOuvx0GEhAHPDKEq4e/giphy.gif)
