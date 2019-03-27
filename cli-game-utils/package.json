@@ -1,6 +1,6 @@
 {
   "name": "cli-game-utils",
-  "version": "1.0.5s",
+  "version": "1.1.2",
   "description": "Utils for simple, command line based games",
   "main": "index.js",
   "scripts": {
