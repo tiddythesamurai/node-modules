@@ -7,7 +7,7 @@ class Printer{
 		this.defaultCharDelay = defaultCharDelay;
 	}
 
-	writeQuestion(query, charDelay, clearDelay){
+	writeQuestion(query, charDelay){
 
 		if(typeof charDelay == undefined){charDelay = defaultCharDelay}
 		else {charDelay = charDelay};
@@ -21,7 +21,9 @@ class Printer{
 
 }
 
-exports.printer = new Printer(100, 3000);
+exports.Printer = Printer;
+
+exports.printer = new Printer(100);
 
 exports.sPrint = function(input, delay, endNewline) {
 	if (typeof delay == undefined) {delay = 100}
