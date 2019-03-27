@@ -1,6 +1,33 @@
-exports.sPrint = function(input, delay) {
-	if (typeof delay == "undefined") {charDelay = 100}
-	else {charDelay = delay};
+const readline = require("readline-sync");
+
+class Printer{
+
+	
+	constructor(defaultCharDelay){
+		this.defaultCharDelay = defaultCharDelay;
+	}
+
+	writeQuestion(query, charDelay, clearDelay){
+
+		if(typeof charDelay == undefined){charDelay = defaultCharDelay}
+		else {charDelay = charDelay};
+
+		exports.sPrint(query, charDelay, false);
+		var input = readline.question();
+		
+		return input;
+
+	}
+
+}
+
+exports.printer = new Printer(100, 3000);
+
+exports.sPrint = function(input, delay, endNewline) {
+	if (typeof delay == undefined) {delay = 100}
+	else {delay = delay};
+	if(typeof endNewline == undefined) {endNewline = true}
+	else {endNewline = endNewline};
 	var arr = [];
  	for (i = 0; i < input.length; i++){
 
@@ -10,10 +37,10 @@ exports.sPrint = function(input, delay) {
 	arr.forEach(function(element){
 
 		process.stdout.write(element);
-		exports.sleep(charDelay);
+		exports.sleep(delay);
 
 	});
-	console.log('');
+	if(endNewline == true) {console.log('');}
 }
 
 exports.sleep = function(milliseconds) {

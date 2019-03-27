@@ -1,2 +1,2 @@
 const util = require("./index.js");
-util.sPrint("Hello World", 500);
+var name = util.sPrint("Hello World!", 200, true);
