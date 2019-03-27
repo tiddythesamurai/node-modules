@@ -1,4 +1,4 @@
-# Command Line Utilities
+# (Command Line Utilities)[https://www.npmjs.com/package/cli-game-utils]
 
 ## Overview
 ***
