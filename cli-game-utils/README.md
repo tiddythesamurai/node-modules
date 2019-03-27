@@ -9,6 +9,6 @@
 ##### Usage: `sPrint(`*your string here, delay*`)`
 sPrint will sequentially print the string inputted with a timed (default is 100 milliseconds) delay between each character.
 
-### 2. sleep
-#### Usage: `sleep(`*milliseconds*`)`
+#### 2. sleep
+##### Usage: `sleep(`*milliseconds*`)`
 sleep will add a delay to the program for a specified amount of time in milliseconds.
