@@ -6,5 +6,9 @@
 ## Functions
 ***
 #### 1. sPrint [WIP]
-##### Usage: `sPrint(`*your string here*`)`
-sPrint will sequentially print the string inputted with a timed delay between each chracter.
+##### Usage: `sPrint(`*your string here, delay*`)`
+sPrint will sequentially print the string inputted with a timed (default is 100 milliseconds) delay between each chracter.
+
+### 2. sleep
+#### Usage: `sleep(`*milliseconds*`)`
+sleep will add a delay to the program for a specified amount of time in milliseconds.
