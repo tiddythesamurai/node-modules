@@ -7,7 +7,7 @@
 ***
 #### 1. sPrint [WIP]
 ##### Usage: `sPrint(`*your string here, delay*`)`
-sPrint will sequentially print the string inputted with a timed (default is 100 milliseconds) delay between each chracter.
+sPrint will sequentially print the string inputted with a timed (default is 100 milliseconds) delay between each character.
 
 ### 2. sleep
 #### Usage: `sleep(`*milliseconds*`)`
