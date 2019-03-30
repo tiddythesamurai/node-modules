@@ -14,5 +14,14 @@
     "url": "git://github.com/tiddythesamurai/node-modules/tree/master/cli-game-utils.git"
   },
   "author": "Todd Knight <knight.todd.04@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/tiddythesamurai/node-modules/tree/master/cli-game-utils",
+  "keywords": [
+    "cli",
+    "sleep",
+    "wait",
+    "game",
+    "input",
+    "print"
+  ]
 }
