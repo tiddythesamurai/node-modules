@@ -61,4 +61,4 @@ typings/
 .next
 
 #Miscellaneous
-test.js
+test.js*
