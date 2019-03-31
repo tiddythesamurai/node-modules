@@ -23,5 +23,8 @@
     "game",
     "input",
     "print"
+  ],
+  "files" : [
+    "genLootTable.js"
   ]
 }

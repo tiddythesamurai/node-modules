@@ -9,7 +9,7 @@ class Printer{
 
 	writeQuestion(query, charDelay){
 
-		if(typeof charDelay == undefined){charDelay = defaultCharDelay}
+		if(typeof charDelay == "undefined"){charDelay = this.defaultCharDelay}
 		else {charDelay = charDelay};
 
 		exports.sPrint(query, charDelay, false);
@@ -26,9 +26,9 @@ exports.Printer = Printer;
 exports.printer = new Printer(100);
 
 exports.sPrint = function(input, delay, endNewline) {
-	if (typeof delay == undefined) {delay = 100}
+	if (typeof delay == "undefined") {delay = 100}
 	else {delay = delay};
-	if(typeof endNewline == undefined) {endNewline = true}
+	if(typeof endNewline == "undefined") {endNewline = true}
 	else {endNewline = endNewline};
 	var arr = [];
  	for (i = 0; i < input.length; i++){

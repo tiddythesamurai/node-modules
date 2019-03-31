@@ -61,4 +61,7 @@ typings/
 .next
 
 #Miscellaneous
+#testing file that no one needs to see
 test.js*
+#json file generated during testing of genLootTable.js
+loot.json*
