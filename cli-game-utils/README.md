@@ -44,8 +44,8 @@ Output:
 ```json
 {
     "Object1" : {
-        "Loot1" : percentage(int),
-        "Loot2" : percentage(int)
+        "Loot1" : 75,
+        "Loot2" : 25
     },
     "Object2" : {
         "Loot1" : 100
