@@ -44,11 +44,11 @@ Output:
 ```json
 {
     "Object1" : {
-        75 : "Loot1",
-        25 : "Loot2"
+        "Loot1" : 75,
+        "Loot2" : 25
     },
     "Object2" : {
-        100 : "Loot1"
+        "Loot1" : 100
     }
 }
 ```
@@ -62,18 +62,18 @@ node genLootTable.js
 ```json
 {
 	"Skeleton" : {
-		30 : "Bone",
-		50 : "Sword",
-		20 : "Teeth"
+		"Bone" : 30,
+		"Sword" : 50,
+		"Teeth" : 20
 	},
 	"Goblin" : {
-		45 : "Gold",
-		20 : "Dagger",
-		35 : "Goblin Guts"
+		"Gold" : 45,
+		"Dagger" : 20,
+		"Goblin Guts" : 35
 	},
 	"Ogre" : {
-		80 : "Club",
-		20 : "Ogre Brains"
+		"Club" : 80,
+		"Ogre Brains" : 20
 	}
 
 }
