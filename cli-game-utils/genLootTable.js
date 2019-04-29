@@ -43,12 +43,13 @@ while(i < objectCount){
 				}
 				totalChance += lootChance;
 			}
-			if(j == lootCount-1&&i == objectCount-1)
-				contents += "\"" + lootName + "\" : " + lootChance + "\n\t}\n";
-			else if(j == lootCount-1&& i != objectCount-1)
-				contents += "\"" + lootName + "\" : " + lootChance + "\n\t},\n";
-			else
-				contents += "\"" + lootName + "\" : " + lootChance + ",\n\t\t";
+			if(j == lootCount-1&&i == objectCount-1){
+				contents += "\"" + lootChance + "\" : " + lootName + "\n\t}\n";
+			}else if(j == lootCount-1&& i != objectCount-1){
+				contents += "\"" + lootChance + "\" : " + lootName + "\n\t},\n";
+			}else{
+				contents += "\"" + lootChance + "\" : " + lootName + ",\n\t\t";
+			}
 		}else{
 			var lootName = printer.writeQuestion("Input the name of the loot at position " + j + ": ");
 			while(lootName === "" || lootName == null){
